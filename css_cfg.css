@@ -1,0 +1,20 @@
+:root {
+  --color-0: #ffffff; /* 본문 박스 컬러 */
+
+  --color-1: #cceecc; /* */
+  --color-2: #1D62BD; /* */
+  --color-3: #003366; /* 메인 컬러 */
+  --color-4: gray; /* 서브 컬러 */
+  --color-5: #1D62BD; /* */
+
+  /* 꽁게더 타이틀 */
+  --logo-URL: url("https://doyeunkim.github.io/Ggongbless/source/Ggongether.png");
+  --logo-Width: 158px;
+  --logo-Height: 50px;
+  --logo-size-mobile: 90px 32px;
+
+  /* 접속자 */
+  --icon-URL: url("https://doyeunkim.github.io/Ggongbless/source/elGgong.png");
+  --pre-comment: "꽁성교 신도 ";
+  --sub-comment: "명 여러분, 꽁블레스유!";
+}
