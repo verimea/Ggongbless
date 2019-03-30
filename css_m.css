@@ -2,7 +2,7 @@
 
 /* 메인 */
 #main-content, body, footer {
-    background: var(--color-2) !important;
+    background: var(--color-3) !important;
   }
   
   /* 고정 포스트 로고 색 */
@@ -10,8 +10,8 @@
   
   /* 헤더 컬러 */
   header {
-      border-bottom-color: var(--color-4) !important;
-      background: var(--color-2) !important;
+      border-bottom-color: var(--color-1) !important;
+      background: var(--color-1) !important;
   }
   
   /* 상단 로고 */
