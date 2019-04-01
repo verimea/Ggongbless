@@ -160,7 +160,7 @@ header #header-bar > .row {
 
 /* 버튼 애니메이션 */
 .btn-primary { background: var(--color-4); border-color: var(--color-1); }
-.btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
+.btn-primary:hover { animation: infinite AquaLinkBG 3s; }
 
 /* 푸터 스타일링 */
 footer {
