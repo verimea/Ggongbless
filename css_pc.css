@@ -127,11 +127,15 @@ header #header-bar > .row {
 /* 댓글 컬러 */
 #article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-5); }
 /* 댓글 갯수 스타일링 */
-#article-reply-area > .header h5 { font-size: 14px; color: var(--color-4); font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 14px; color: ivory; font-weight: bold; }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
   font-weight: bold;
   color: ivory;
   cursor: pointer;
+}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+  text-decoration: none;
+  color: ivory;
 }
 
 /* 좋아요 스타일링 */
