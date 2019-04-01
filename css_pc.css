@@ -127,9 +127,9 @@ header #header-bar > .row {
   border-radius: 0 0 15px 15px;
 }
 #main #main-content > div.frame {
-    box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
-    border-radius: 0 0 15px 15px;
-    background: -webkit-linear-gradient(135deg, var(--color-0) 0%,var(--color-0) 99%, var(--color-5) 99%,var(--color-3) 100%);
+  box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
+  border-radius: 0 0 15px 15px;
+  /* background: -webkit-linear-gradient(135deg, var(--color-0) 0%,var(--color-0) 99%, var(--color-5) 99%,var(--color-3) 100%); */
 }
 
 /* 페이지에 마우스 댔을때 컬러 변환 */
