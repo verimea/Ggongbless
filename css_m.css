@@ -101,5 +101,5 @@ footer {
 }
   
 footer a{
-    color: lightcoral;
+    color: var(--color-6);
 }
