@@ -37,14 +37,14 @@ header #header-bar > .row {
 /* 헤더 글씨 색상 변경 */
 header #header-bar a.dropdown-toggle {
   display: inline-block;
-  color: ivory;
+  color: var(--color-1);
   text-decoration: none;
   padding: 0.3em 0;
 }
 
 /* 광고란 컬러 변경 */
 header #header-bar #header-top-notice a {
-  color: ivory;
+  color: var(--color-1);
   text-decoration: none;
 }
 
@@ -135,15 +135,15 @@ header #header-bar > .row {
 /* 댓글 컬러 */
 #article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-5); }
 /* 댓글 갯수 스타일링 */
-#article-reply-area > .header h5 { font-size: 14px; color: ivory; font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 14px; color: var(--color-1); font-weight: bold; }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
   font-weight: bold;
-  color: ivory;
+  color: var(--color-1);
   cursor: pointer;
 }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
   text-decoration: none;
-  color: ivory;
+  color: var(--color-1);
 }
 
 /* 좋아요 스타일링 */
@@ -172,7 +172,7 @@ header #header-bar > .row {
 
 /* 푸터 스타일링 */
 footer {
-  color: ivory;
+  color: var(--color-1);
 }
 
 footer a {

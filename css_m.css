@@ -97,7 +97,7 @@ a {
 
 /* 푸터 스타일링 */
 footer {
-    color: ivory;
+    color: var(--color-1);
 }
   
 footer a{
