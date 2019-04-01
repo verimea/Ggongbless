@@ -297,7 +297,6 @@ footer a {
     100% { background-color: var(--color-5); }
 }
 @keyframes anim_hovered_background {
-    0% { background-color: var(--color-1); }
-    1% { background-color: var(--color-5); }
+    5% { background-color: var(--color-1); }
 }
   
