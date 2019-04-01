@@ -143,6 +143,7 @@ header #header-bar > .row {
 }
 .pagination > li > a:hover { 
   animation: infinite AquaLinkBG 1.5s; 
+  color: var(--color-3);
 }
 .pagination > .active > a,
 .pagination > .active > a:focus,
@@ -154,6 +155,8 @@ header #header-bar > .row {
   background-color: var(--color-4); 
   border-color: var(--color-4); 
 } /* 첫번째 색에서 두번째 색으로 바뀜 */
+
+
 
 /* 글 읽을 때 헤더 컬러 */
 #article-content-wrapper > .header { 
