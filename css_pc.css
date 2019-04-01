@@ -121,7 +121,7 @@ header #header-bar > .row {
 { background-color: var(--color-4); border-color: var(--color-4); } /* 첫번째 색에서 두번째 색으로 바뀜 */
 
 /* 글 읽을 때 헤더 컬러 */
-#article-content-wrapper > .header { border-top: 3px solid var(--color-4); background: var(--color-5); }
+#article-content-wrapper > .header { border-top: 3px solid var(--color-4); background: var(--color-5); color: var(--color-1);}
 /* 글 읽을 때 푸터 컬러 */
 #article-content-wrapper > .footer { border-bottom: 3px solid var(--color-4); background: var(--color-5); }
 /* 게시글 타임 컬러 */
@@ -135,7 +135,7 @@ header #header-bar > .row {
 /* 댓글 컬러 */
 #article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-5); }
 /* 댓글 갯수 스타일링 */
-#article-reply-area > .header h5 { font-size: 14px; color: var(--color-1); font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 14px; color: var(--color-4); font-weight: bold; }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
   font-weight: bold;
   color: var(--color-1);
@@ -144,6 +144,11 @@ header #header-bar > .row {
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
   text-decoration: none;
   color: var(--color-1);
+}
+
+/* 댓글 타임 스탕일링 */
+.time {
+  color: var(--color-3);
 }
 
 /* 좋아요 스타일링 */
