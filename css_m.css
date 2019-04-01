@@ -72,21 +72,7 @@ header > #header-search-bar #header-search-btn { color: var(--color-4); }
 nav#nav > .nav-header { background: var(--color-4); }
 header > #header-area > #header-search-link { color: var(--color-4); }
 
-/* 키프레임 컬러 */
-@keyframes linearLoop {
-    000% { background-color: var(--color-0); }
-    010% { background-color: var(--color-1); }
-    020% { background-color: var(--color-2); }
-    030% { background-color: var(--color-3); }
-    040% { background-color: var(--color-4); }
-    050% { background-color: var(--color-5); }
-    060% { background-color: var(--color-4); }
-    070% { background-color: var(--color-3); }
-    080% { background-color: var(--color-2); }
-    090% { background-color: var(--color-1); }
-    100% { background-color: var(--color-0); }
-}
-
+/* 애니메이션 컬러 */
 @keyframes AquaLinkBG {
     0% { background-color: var(--color-5); }
     40% { background-color: var(--color-1; }
@@ -94,7 +80,7 @@ header > #header-area > #header-search-link { color: var(--color-4); }
 }
 
 a {
-    color: aqua;
+    color: var(--color-2);
 }
 
 /* 보고있는 사람들 */
@@ -109,10 +95,11 @@ a {
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: var(--icon-URL); vertical-align: sub; }
 
 
+/* 푸터 스타일링 */
 footer {
     color: ivory;
 }
   
 footer a{
-    color: blanchedalmond
+    color: lightcoral;
 }

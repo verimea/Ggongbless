@@ -53,9 +53,12 @@ header #header-bar #header-top-notice strong.notice-badge {
    background: var(--color-4); padding: 4px 8px; color: var(--color-1); font-weight: bold
 }
 
+/* 서치바 색상 변경 */
+header #right-search-form > input[type="text"] {
+  border: 3px solid var(--color-2);
+}
 header #right-search-form > #right-search-btn {
   color: var(--color-2);
-  font-size: 1.4em;
 }
 
 /* 글 위치 */
@@ -177,32 +180,6 @@ footer a {
 }
 
 /* 키프레임 애니메이션 스타일링 */
-@keyframes rainbowLink {
-  000% { color: var(--color-0); }
-  010% { color: var(--color-1); }
-  020% { color: var(--color-2); }
-  030% { color: var(--color-3); }
-  040% { color: var(--color-4); }
-  050% { color: var(--color-5); }
-  060% { color: var(--color-4); }
-  070% { color: var(--color-3); }
-  080% { color: var(--color-2); }
-  090% { color: var(--color-1); }
-  100% { color: var(--color-0); }
-}
-@keyframes rainbowLinkBG {
-  000% { background-color: var(--color-0); }
-  010% { background-color: var(--color-1); }
-  020% { background-color: var(--color-2); }
-  030% { background-color: var(--color-3); }
-  040% { background-color: var(--color-4); }
-  050% { background-color: var(--color-5); }
-  060% { background-color: var(--color-4); }
-  070% { background-color: var(--color-3); }
-  080% { background-color: var(--color-2); }
-  090% { background-color: var(--color-1); }
-  100% { background-color: var(--color-0); }
-}
 @keyframes AquaLinkBG {
     0% { background-color: var(--color-5); }
     40% { background-color: var(--color-4); }
