@@ -53,6 +53,11 @@ header #header-bar #header-top-notice strong.notice-badge {
    background: var(--color-4); padding: 4px 8px; color: var(--color-1); font-weight: bold
 }
 
+header #right-search-form > #right-search-btn {
+  color: var(--color-2);
+  font-size: 1.4em;
+}
+
 /* 글 위치 */
 #article-list #article-option-area>#article-option-area-toggle-btn { position: relative; right: 14px; }
 
