@@ -55,7 +55,7 @@ nav#nav > #nav-upper > #header-close-bar-link {
 } */
 
 #article-content-wrapper > .header { 
-    background: var(--color-4) !important; 
+    background: var(--color-1) !important; 
     border-top: 2px solid var(--color-2); 
 }
   
