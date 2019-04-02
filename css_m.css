@@ -38,6 +38,17 @@ nav#nav > #nav-upper > #header-close-bar-link {
     font-size: 24px;
 }
 
+/* 검색시 화살표 컬러 */
+header > #header-search-bar #header-close-search-btn {
+    color: var(--color-2);
+}
+header > #header-search-bar #header-search-btn {
+    color: var(--color-2);
+}
+header > #header-search-bar #header-search-input {
+    border: 2px solid var(--color-2);
+}
+
 /* 공지 헤더 스타일링 */
 #header-top-notice a { 
     font-weight: bold; 
@@ -119,6 +130,11 @@ nav#nav > #nav-upper > #header-close-bar-link {
     background: var(--color-3); 
 }
 
+#board-info #viewers-area #viewers:after { 
+    content: "꽁!"; 
+    cursor : text; 
+  }
+
   /* 보고있는 사람들 뱃지 */
 #board-info #viewers-area .fa-user:before { 
     color: rgba(95,02,22,0); 
@@ -190,5 +206,9 @@ footer {
   
 footer a{
     color: var(--color-6);
+}
+
+footer a:hover{
+    color: var(--color-4)
 }
 
