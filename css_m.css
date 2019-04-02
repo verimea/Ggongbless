@@ -65,7 +65,7 @@ nav#nav > #nav-upper > #header-close-bar-link {
     width: 0px; 
 }
 #article-list > .article-list-row.notice { 
-    background: var(--color-4) !important; 
+    background: var(--color-1) !important; 
 }
 #article-list > .article-list-row.notice > .item > a.list-title { 
     vertical-align: middle; 
