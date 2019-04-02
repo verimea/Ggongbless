@@ -39,9 +39,9 @@ header #header-bar {
 header #header-bar > .row {
     padding-top: 0.3em; 
     padding-bottom: 0.3em; 
-    border-top: 4px solid var(--color-5);
+    border-top: 4px solid var(--color-2);
     /* 헤더의 컬러 */
-    background: -webkit-linear-gradient(45deg, var(--color-3) 0%,var(--color-5) 11%,var(--color-2) 100%);
+    background: -webkit-linear-gradient(45deg, var(--color-3) 0%,var(--color-2) 11%,var(--color-2) 100%);
     border-bottom: 2px solid var(--color-1); 
     border-right: 2px solid var(--color-1) }
 
@@ -83,13 +83,13 @@ header #right-search-form > #right-search-btn {
 
 /* 글 읽을 때 배경 스타일링 */
 #article-list > .article-list-row.hot { 
-    background:-webkit-linear-gradient(135deg, var(--color-3) 0%,var(--color-5) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-5) 95%,var(--color-3) 100%); 
+    background:-webkit-linear-gradient(135deg, var(--color-3) 0%,var(--color-2) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-2) 95%,var(--color-3) 100%); 
 }
 
 /* 트게더 메뉴 */
 #main .menu-wrapper > .header {
   /* 컬러 스타일링 */
-  background: -webkit-linear-gradient(45deg, var(--color-3) 10%,var(--color-5) 100%);
+  background: -webkit-linear-gradient(45deg, var(--color-3) 10%,var(--color-2) 100%);
   color: var(--color-0); 
   padding: 0.45em 1.4em 0.45em 1em; 
   font-weight: bold; 
@@ -121,6 +121,11 @@ header #header-bar > .row,
   height: 4px;
 }
 
+/* 고정 포스트 로고 색 */
+span.a-badge i.fa.fa-info-circle { 
+  color: var(--color-5) !important; 
+}
+
 /* 그림자 */
 header #header-bar > .row {
   box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
@@ -129,7 +134,7 @@ header #header-bar > .row {
 #main #main-content > div.frame {
   box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
   border-radius: 0 0 15px 15px;
-  /* background: -webkit-linear-gradient(135deg, var(--color-0) 0%,var(--color-0) 99%, var(--color-5) 99%,var(--color-3) 100%); */
+  /* background: -webkit-linear-gradient(135deg, var(--color-0) 0%,var(--color-0) 99%, var(--color-2) 99%,var(--color-3) 100%); */
 }
 
 /* 페이지에 마우스 댔을때 컬러 변환 */
@@ -161,19 +166,19 @@ header #header-bar > .row {
 /* 글 읽을 때 헤더 컬러 */
 #article-content-wrapper > .header { 
   border-top: 3px solid var(--color-4); 
-  background: var(--color-5); 
+  background: var(--color-2); 
   color: var(--color-1);
 }
 /* 글 읽을 때 푸터 컬러 */
 #article-content-wrapper > .footer { 
   border-bottom: 3px solid var(--color-4); 
-  background: var(--color-5); 
+  background: var(--color-2); 
 }
 /* 게시글 타임 컬러 */
 #article-list #article-list-category > a { 
   display: inline-block; 
   padding: 11px 16px; 
-  background: var(--color-5); 
+  background: var(--color-2); 
   text-decoration: none; 
   font-size: 12px; 
   font-weight: bold 
@@ -187,12 +192,12 @@ header #header-bar > .row {
 /* 게시글 카테고리 배경 컬러 */
 #article-list #article-list-category { 
   border-top: 3px solid var(--color-4); 
-  background:  -webkit-linear-gradient(45deg, var(--color-5) 0%,var(--color-5) 80%,var(--color-3) 100%); 
+  background:  -webkit-linear-gradient(45deg, var(--color-2) 0%,var(--color-2) 80%,var(--color-3) 100%); 
 }
 
 /* 댓글 컬러 */
 #article-reply-area #reply-real-area .reply > .reply-header { 
-  background: var(--color-5); 
+  background: var(--color-2); 
 }
 /* 댓글 갯수 스타일링 */
 #article-reply-area > .header h5 { 
@@ -295,9 +300,9 @@ footer a {
 
 /* 키프레임 애니메이션 스타일링 */
 @keyframes AquaLinkBG {
-    0% { background-color: var(--color-5); }
+    0% { background-color: var(--color-2); }
     40% { background-color: var(--color-4); }
-    100% { background-color: var(--color-5); }
+    100% { background-color: var(--color-2); }
 }
 @keyframes anim_hovered_background {
     5% { background-color: var(--color-1); }
