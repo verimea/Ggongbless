@@ -99,7 +99,7 @@ header #right-search-form > #right-search-btn {
   color: var(--color-3);
 }
 #main .menu-wrapper > a > i.fa.fa-square { 
-  olor:var(--color-3); 
+  color:var(--color-3); 
 }
 /* 스케줄은 개별적용 */
 #main .menu-wrapper > .header > a {
