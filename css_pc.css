@@ -312,4 +312,14 @@ footer a:hover{
 @keyframes anim_hovered_background {
     5% { background-color: var(--color-1); }
 }
+
+#movetotop img{display:none}
+
+#movetotop{
+display: inline-block;
+opacity:1;
+background:var(--up-URL);    
+width: 60px;  
+height: 32px;
+background-size: contain;}
   
