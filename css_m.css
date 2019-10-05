@@ -212,3 +212,12 @@ footer a:hover{
     color: var(--color-4)
 }
 
+#movetotop img{display:none}
+
+#movetotop{
+display: inline-block;
+opacity:1;
+background:var(--up-URL);    
+width: 60px;  
+height: 32px;
+background-size: contain;}
