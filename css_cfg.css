@@ -23,5 +23,7 @@
   --sub-comment: "명의 노예엘프들을 환영합니다!";
   
   /* 위로가기 버튼 */
-  --up-URL: url("https://verimea.github.io/Ggongbless/source/GoUp.png");
+  /* --up-URL: url("https://verimea.github.io/Ggongbless/source/GoUp.png");*/
+  /* Xmas edition */
+  --up-URL: url("https://verimea.github.io/Ggongbless/source/XmasSled.png");
 }
