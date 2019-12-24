@@ -3,7 +3,7 @@
 html {
     height:auto !important;
     /* 배경을 현재의 위아래 그레이디언트로 만들어줍니다 */
-    background: linear-gradient(to bottom, var(--color-1), var(--color-2), var(--color-3));
+    background: linear-gradient(to bottom, var(--color-7), var(--color-2), var(--color-3));
 }
 
 body {
