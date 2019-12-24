@@ -29,13 +29,13 @@
 :root {
   --color-0: #ffffff; /* */
   
-  --color-1: #000000; /* */
+  --color-1: #cceecc; /* */
   --color-2: #1D62BD; /* */
   --color-3: #003366; /* 메인 컬러 */
   --color-4: gray; /* 서브 컬러 */
   --color-5: #DC143C; /* */
   --color-6: lightcoral;
-  --color-7: #cceecc;
+  --color-7: #000000;
   
 
   /* 꽁게더 타이틀 */
