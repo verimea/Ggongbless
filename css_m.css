@@ -13,7 +13,7 @@ span.a-badge i.fa.fa-info-circle {
 /* 헤더 컬러 */
 header {
     border-bottom-color: var(--color-1) !important;
-    background: var(--color-1) !important;
+    background: var(--color-7) !important;
 }
 
 /* 상단 로고 */
