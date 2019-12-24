@@ -21,6 +21,8 @@ header .row > div:nth-child(1) > a {
     width: var(--logo-Width); 
     height: var(--logo-Height);
     background-image: var(--logo-URL); 
+    background-size: 158px 50px;
+    background-position: center;
 }
 /* 꽁게더 로고를 가려줍니다 */
 header .row > div:nth-child(1) > a img { 
