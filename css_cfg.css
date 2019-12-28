@@ -12,18 +12,18 @@
   
 
   /* 꽁게더 타이틀 */
-  --logo-URL: url("https://verimea.github.io/Ggongbless/source/GgongLogo.png");
+  --logo-URL: url("https://verimea.github.io/Ggongbless/source/Ggongether.png");
   --logo-Width: 158px;
   --logo-Height: 50px;
   --logo-size-mobile: 90px 32px;
 
   /* 접속자 */
   --icon-URL: url("https://verimea.github.io/Ggongbless/source/SantaFish.png");
-  --pre-comment: "산타꽁이  ";
-  --sub-comment: "명의 노예엘프들을 환영합니다!";
+  --pre-comment: "꽁성교도  ";
+  --sub-comment: "명에게 꽁성님이 파이쟈!";
   
   /* 위로가기 버튼 */
-  /* --up-URL: url("https://verimea.github.io/Ggongbless/source/GoUp.png");*/
+  --up-URL: url("https://verimea.github.io/Ggongbless/source/GoUp.png");
   /* Xmas edition */
-  --up-URL: url("https://verimea.github.io/Ggongbless/source/XmasSled.png");
+/*   --up-URL: url("https://verimea.github.io/Ggongbless/source/XmasSled.png"); */
 }
