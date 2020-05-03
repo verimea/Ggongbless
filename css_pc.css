@@ -85,7 +85,7 @@ header #right-search-form > #right-search-btn {
 
 /* 글 읽을 때 배경 스타일링 */
 #article-list > .article-list-row.hot { 
-    background:-webkit-linear-gradient(135deg, var(--color-3) 0%,var(--color-2) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-2) 95%,var(--color-3) 100%); 
+    background: var(--color-1); 
 }
 
 /* 트게더 메뉴 */
